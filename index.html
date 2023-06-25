@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART MOLBERT</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <nav class="header__nav">
+                <li><a href="">Искусство</a></li>
+                <li><a href="">Авторы</a></li>
+                <li><a href="">Коллекции</a></li>
+                <li><a href="">Подарки</a></li>
+            </nav>
+            <div class="header__logo">
+                <a href="">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="header__search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="header__selectors">
+                <div class="select">
+                    <div class="select__header">
+                        <div class="select__input">€</div>
+                    </div>
+
+                    <div class="select__list">
+                        <div class="select__item">₽</div>
+                        <div class="select__item">$</div>
+                        <div class="select__item">€</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__actions">
+                <a href=""><img src="img/icon_heart.svg" alt=""></a>
+                <a href=""><img src="img/my account.svg" alt=""></a>
+                <a href=""><img src="img/shopping bag.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header__footer">
+                <li>Скидки на летний сезон:</li>
+                <li>10% скидка на покупку от 20 000 руб. по коду Summer10 </li>
+                <li>5% скидка на покупку от 50 000 руб. по коду Summer15</li>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero__wrapper">
+            <swiper-container slides-per-view="1" speed="500">
+                <swiper-slide class="hero__slide">
+                    <div class="hero__left">
+                        <div class="hero__top">
+                            <div class="hero__welcome">welcome to</div>
+                            <div class="hero__art">art</div>
+                            <div class="hero__image-top"><img src="img/hero2.jpg" alt=""></div>
+                        </div>
+                        <div class="hero__bottom">
+                            <div class="hero__image-bottom"><img src="img/hero1.jpg" alt=""></div>
+                            <div class="hero__molbert">MOLBERT</div>
+                            <div class="hero__button">
+
+                            </div>
+                            <div class="hero__image-bottom">
+                                <button class="hero__button button">
+                                    Купить
+                                </button>
+                                <img src="img/hero3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__right">
+                        <img src="img/hero4.jpg" alt="">
+                    </div>
+                </swiper-slide>
+                <swiper-slide>Slide 2</swiper-slide>
+                <swiper-slide>Slide 3</swiper-slide>
+            </swiper-container>
+            <div class="next">
+                <img src="img/arrow.svg" alt="">
+            </div>
+            <div class="prev">
+                <img style="transform: rotateY(180deg);" src="img/arrow.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="arts">
+        <div class="container">
+            <div class="arts__title title">
+
+                Искусство<br> НА
+                <span>ARTMOLBERT</span>
+            </div>
+            <div class="arts__divider divider"></div>
+            <div class="arts__items">
+                <div class="arts__item item">
+                    <div class="item__image">
+                        <img src="img/Rectangle 2578.png" alt="">
+                    </div>
+                    <a href="">Живопись</a>
+                </div>
+                <div class="arts__item item">
+                    <div class="item__image"> <img src="img/Rectangle 2576.png" alt="">
+                    </div>
+
+                    <a href="">Графика</a>
+                </div>
+                <div class="arts__item item">
+                    <div class="item__image"> <img src="img/Rectangle 2577.png" alt="">
+                    </div>
+
+                    <a href="">Скульптура</a>
+                </div>
+                <div class="arts__item item">
+                    <div class="item__image"> <img src="img/Rectangle 2573.png" alt="">
+                    </div>
+                    <a href="">Фотография</a>
+                </div>
+            </div>
+            <button class="arts__button button">Больше</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__title title">
+                О <span>нас</span>
+            </div>
+            <div class="about__divider divider"></div>
+            <div class="about__block">
+                <div class="about__side">
+                    <div class="about__text text">Платформа, реализующая уникальные проекты. Проффесиональный штат
+                        сотрудников. Более 1000 мероприятий организовано. К каждому произведению мы выдаем сертификат
+                        подлинности.
+                        <button class="about__button button">
+                            <img src="img/arrowButton.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class="about__counters">
+                        <div class="about__counter">
+                            <div class="about__counter-number">1000</div>
+                            <div class="about__counter-text">Мероприятий организовано</div>
+                        </div>
+                        <div class="about__counter">
+                            <div class="about__counter-number">10 <span>лет</span> </div>
+                            <div class="about__counter-text">Опыта на рынке искусства</div>
+                        </div>
+                        <div class="about__counter">
+                            <div class="about__counter-number">200 <span>м</span> </div>
+                            <div class="about__counter-text">От Галереи Эрмитаж</div>
+                        </div>
+                        <div class="about__counter">
+                            <div class="about__counter-number">5000 </div>
+                            <div class="about__counter-text">Проданных предметов искусства</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="about__side about__images">
+                    <img src="img/ABOUT3.jpg" alt="">
+                    <img src="img/ABOUT2.jpg" alt="">
+                    <img src="img/ABOUT1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <div class="price__title title">
+                <span>Выбор</span> <br>
+                По
+                <span>Цене</span>
+            </div>
+            <div class="price__divider divider"></div>
+            <div class="price__items">
+                <div class="price__border">
+                    <div class="price__item">
+                        <div class="price__offset">
+
+                            <div class="price__item-bg"></div>
+                            <div class="price__image">
+                                <img src="img/price1.jpg" alt="">
+                            </div>
+                            <div class="price__item-wrapper">
+                                <div class="price__sum">
+                                    <span>до</span>
+                                    30 000
+                                    <span>₽</span>
+                                </div>
+                            </div>
+                            <div class="price__button">
+                                <button class="button"><img src="img/arrowWhite.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price__border">
+                    <div class="price__item">
+                        <div class="price__offset">
+
+                            <div class="price__item-bg"></div>
+                            <div class="price__image">
+                                <img src="img/price2.jpg" alt="">
+                            </div>
+                            <div class="price__item-wrapper">
+                                <div class="price__sum">
+                                    <span>от</span>
+                                    30 000
+                                    <span>₽</span>
+                                </div>
+                                <div class="price__sum">
+                                    <span>до</span>
+                                    60 000
+                                    <span>₽</span>
+                                </div>
+                            </div>
+                            <div class="price__button">
+                                <button class="button"><img src="img/arrowWhite.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price__border">
+                    <div class="price__item">
+                        <div class="price__offset">
+
+                            <div class="price__item-bg"></div>
+                            <div class="price__image">
+                                <img src="img/price3.jpg" alt="">
+                            </div>
+                            <div class="price__item-wrapper">
+                                <div class="price__sum">
+                                    <span>от</span>
+                                    60 000
+                                    <span>₽</span>
+                                </div>
+                                <div class="price__sum">
+                                    <span>до</span>
+                                    120 000
+                                    <span>₽</span>
+                                </div>
+                            </div>
+                            <div class="price__button">
+                                <button class="button"><img src="img/arrowWhite.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price__border">
+                    <div class="price__item">
+                        <div class="price__offset">
+
+                            <div class="price__item-bg"></div>
+                            <div class="price__image">
+                                <img src="img/price4.jpg" alt="">
+                            </div>
+                            <div class="price__item-wrapper">
+                                <div class="price__sum">
+                                    <span>от</span>
+                                    120 000
+                                    <span>₽</span>
+                                </div>
+                                <div class="price__sum">
+                                    <span>до</span>
+                                    240 000
+                                    <span>₽</span>
+                                </div>
+                            </div>
+                            <div class="price__button">
+                                <button class="button"><img src="img/arrowWhite.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="answers">
+        <div class="container">
+            <div class="answers__logo"><img src="img/big_logo.svg" alt=""></div>
+            <div class="answers__items">
+                <div class="answers__item">
+                    <div class="answers__title title">
+                        кто <br>
+                        <span>мы</span>
+                    </div>
+                    <div class="answers__text text">Галерея MOLBERT — творческое пространство в центре Санкт-Петербурга.
+                        За
+                        10 лет работы галерея провела более тысячи
+                        арт-мероприятий, в том числе выставочные проекты
+                        в
+                        сотрудничестве с музеями, посольствами и консульствами, Российским культурным центром, а также в
+                        содружестве
+                        с иностранными галереями и кураторами.
+                    </div>
+                </div>
+                <div class="answers__item">
+                    <div class="answers__title title">
+                        что мы <br>
+                        <span>делаем</span>
+                    </div>
+                    <div class="answers__text text">Наша цель — продвижение современного отечественного и зарубежного
+                        искусства на российской арт-сцене, а также продвижение русского искусства за рубежом. Все авторы
+                        были отобраны нашей командой, каждый художник высоко зарекомендовал себя и ценится
+                        коллекционерами.</div>
+                </div>
+                <div class="answers__item">
+                    <div class="answers__title title">
+                        как мы <br>
+                        <span>работаем</span>
+                    </div>
+                    <div class="answers__text text">Мы стремимся предоставить вам доступ
+                        к большому выбору произведений современных художников, в какой бы точке мира вы ни находились.
+                        Мы заботимся
+                        о логистических процессах, оформлении таможенных документов, чтобы вы могли сосредоточиться
+                        исключительно на искусстве.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="authors">
+        <div class="container">
+            <div class="authors__title title">
+                популярные <br>
+                <span>авторы</span>
+            </div>
+            <div class="authors__divider divider"></div>
+            <div class="authors__items">
+                <div class="authors__item">
+                    <div class="authors__image"><img src="img/author1.jpg" alt=""></div>
+                    <div class="authors__name">Александ Воцмуш</div>
+                    <div class="authors__residence">Севастополь, RU</div>
+                </div>
+                <div class="authors__item">
+                    <div class="authors__image"><img src="img/author2.jpg" alt=""></div>
+                    <div class="authors__name">Александ Воцмуш</div>
+                    <div class="authors__residence">Севастополь, RU</div>
+                </div>
+                <div class="authors__item">
+                    <div class="authors__image"><img src="img/aurhor3.jpg" alt=""></div>
+                    <div class="authors__name">Александ Воцмуш</div>
+                    <div class="authors__residence">Севастополь, RU</div>
+                </div>
+                <div class="authors__item">
+                    <div class="authors__image"><img src="img/aurhor4.jpg" alt=""></div>
+                    <div class="authors__name">Александ Воцмуш</div>
+                    <div class="authors__residence">Севастополь, RU</div>
+                </div>
+                <div class="authors__item">
+                    <div class="authors__image"><img src="img/author5.jpg" alt=""></div>
+                    <div class="authors__name">Александ Воцмуш</div>
+                    <div class="authors__residence">Севастополь, RU</div>
+                </div>
+            </div>
+            <div class="authors__button">
+                <button class="button">Больше</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="style">
+        <div class="container">
+            <div class="style__title title">
+                <span>выбор</span> <br>
+                по
+                <span>стилям</span>
+            </div>
+            <div class="style__divider divider"></div>
+            <div class="style__items">
+                <div class="style__item">
+                    <div class="style__image"><img src="img/style1.jpg" alt=""></div>
+                    <div class="style__divider-item"></div>
+                    <div class="style__name">импрессионизм</div>
+                </div>
+                <div class="style__item">
+                    <div class="style__image"><img src="img/style2.jpg" alt=""></div>
+                    <div class="style__divider-item"></div>
+                    <div class="style__name">модерн </div>
+                </div>
+                <div class="style__item">
+                    <div class="style__image"><img src="img/style3.jpg" alt=""></div>
+                    <div class="style__divider-item"></div>
+                    <div class="style__name">стрит арт </div>
+                </div>
+                <div class="style__item">
+                    <div class="style__image"><img src="img/style4.jpg" alt=""></div>
+                    <div class="style__divider-item"></div>
+                    <div class="style__name">абстракция </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new">
+        <div class="container">
+            <div class="new__title title">
+                новые <br>
+                <span>поступления</span>
+            </div>
+            <div class="new__divider divider"></div>
+            <div class="new__slider">
+                <div class="new__controls top-0 absolute z-40">
+                    <div class="next">
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                    <div class="prev">
+                        <img style="transform: rotateY(180deg);" src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <swiper-container class="new__slider" slides-per-view="4">
+                    <swiper-slide>
+                        <div class="new__slide">
+                            <div class="new__header">
+                                <div class="new__top">
+                                    <div class="new__special">NEW</div>
+                                    <div class="new__like"><img src="img/like.svg" alt=""></div>
+                                </div>
+                                <div class="new__image"><img src="img/new1.jpg" alt=""></div>
+                            </div>
+                            <div class="new__info">
+                                <div class="new__author">Александр Воцмуш</div>
+                                <div class="new__name">На Финском заливе</div>
+                                <div class="new__size">60 x 159 cm</div>
+                                <div class="new__divider-item"></div>
+                                <div class="new__actions">
+                                    <div class="new__price">140 000 ₽</div>
+                                    <div class="new__cart"><img src="img/cart.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="new__slide">
+                            <div class="new__header">
+                                <div class="new__top">
+                                    <div class="new__sale">50</div>
+                                    <div class="new__like"><img src="img/like.svg" alt=""></div>
+                                </div>
+                                <div class="new__image"><img src="img/new2.jpg" alt=""></div>
+                            </div>
+                            <div class="new__info">
+                                <div class="new__author">Александр Воцмуш</div>
+                                <div class="new__name">На Финском заливе</div>
+                                <div class="new__size">60 x 159 cm</div>
+                                <div class="new__divider-item"></div>
+                                <div class="new__actions">
+                                    <div class="new__price">140 000 ₽</div>
+                                    <div class="new__cart"><img src="img/cart.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="new__slide">
+                            <div class="new__header">
+
+                                <div class="new__top">
+                                    <div class="new__special">NEW</div>
+                                    <div class="new__like"><img src="img/like.svg" alt=""></div>
+                                </div>
+                                <div class="new__image"><img src="img/new3.jpg" alt=""></div>
+                            </div>
+                            <div class="new__info">
+                                <div class="new__author">Александр Воцмуш</div>
+                                <div class="new__name">На Финском заливе</div>
+                                <div class="new__size">60 x 159 cm</div>
+                                <div class="new__divider-item"></div>
+                                <div class="new__actions">
+                                    <div class="new__oldprice">140 000 ₽</div>
+                                    <div class="new__price">140 000 ₽</div>
+                                    <div class="new__cart"><img src="img/cart.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="new__slide">
+                            <div class="new__header">
+                                <div class="new__top">
+                                    <div class="new__special">NEW</div>
+                                    <div class="new__like"><img src="img/like.svg" alt=""></div>
+                                </div>
+                                <div class="new__image"><img src="img/new4.jpg" alt=""></div>
+                            </div>
+                            <div class="new__info">
+                                <div class="new__author">Александр Воцмуш</div>
+                                <div class="new__name">На Финском заливе</div>
+                                <div class="new__size">60 x 159 cm</div>
+                                <div class="new__divider-item"></div>
+                                <div class="new__actions">
+                                    <div class="new__price">140 000 ₽</div>
+                                    <div class="new__cart"><img src="img/cart.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="new__slide">
+                            <div class="new__header">
+                                <div class="new__top">
+                                    <div class="new__special">NEW</div>
+                                    <div class="new__like"><img src="img/like.svg" alt=""></div>
+                                </div>
+                                <div class="new__image"><img src="img/new1.jpg" alt=""></div>
+                            </div>
+                            <div class="new__info">
+                                <div class="new__author">Александр Воцмуш</div>
+                                <div class="new__name">На Финском заливе</div>
+                                <div class="new__size">60 x 159 cm</div>
+                                <div class="new__divider-item"></div>
+                                <div class="new__actions">
+                                    <div class="new__price">140 000 ₽</div>
+                                    <div class="new__cart"><img src="img/cart.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="presents">
+        <div class="container">
+            <div class="presents__title title">
+                <span>Подарки</span>
+            </div>
+            <div class="presents__divider divider"></div>
+            <div class="presents__block">
+                <div class="presents__slider"></div>
+                <div class="presents__text"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/style.js"></script>
+    <script>
+        const swiperEl = document.querySelectorAll('swiper-container');
+        const nextEl = document.querySelectorAll('.next');
+        const prevEl = document.querySelectorAll('.prev');
+
+        nextEl.forEach((element) => {
+            element.addEventListener('click', () => {
+                swiperEl.forEach((slider) => {
+                    slider.swiper.slideNext();
+                })
+
+            });
+        })
+
+        prevEl.forEach((element) => {
+            element.addEventListener('click', () => {
+                swiperEl.forEach((slider) => {
+                    slider.swiper.slidePrev();
+                })
+
+            });
+        })
+    </script>
+</body>
+
+</html>

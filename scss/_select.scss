@@ -1,0 +1,26 @@
+.select {
+    height: max-content;
+    position: relative;
+    cursor: pointer;
+
+    &__header {}
+
+    &__input {}
+
+    &__list {
+        transform: scaleY(0);
+        transform-origin: 0 0;
+        position: absolute;
+        top: 100%;
+        transition: all .5s ease;
+        z-index: 1000;
+    }
+
+    &__item {}
+}
+
+.select-active {
+    .select__list {
+        transform: scaleY(1);
+    }
+}
