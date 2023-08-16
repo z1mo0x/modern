@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "tailwind.config.js",
+  "type": "module",
   "scripts": {
     "watch": "npx tailwindcss -i input.css -o css/main.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^10.0.3"
+  },
+  "devDependencies": {
+    "@types/swiper": "^6.0.0"
+  }
 }

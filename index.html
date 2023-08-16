@@ -87,12 +87,7 @@
                 <swiper-slide>Slide 2</swiper-slide>
                 <swiper-slide>Slide 3</swiper-slide>
             </swiper-container>
-            <div class="next">
-                <img src="img/arrow.svg" alt="">
-            </div>
-            <div class="prev">
-                <img style="transform: rotateY(180deg);" src="img/arrow.svg" alt="">
-            </div>
+
         </div>
     </section>
 
@@ -546,12 +541,131 @@
                 <span>Подарки</span>
             </div>
             <div class="presents__divider divider"></div>
+
             <div class="presents__block">
-                <div class="presents__slider"></div>
-                <div class="presents__text"></div>
+                <div class="presents__controls">
+                    <div class="presents__slider">
+                        <swiper-container class="swiper-presents" slides-per-view="1" speed="700" pagination="true">
+                            <swiper-slide class="presents-slide">
+                                <div class="presents-slide__wrapper">
+                                    <div class="presents-slide__text">
+                                        <div class="presents-slide__name">
+                                            Книга <br>
+                                            “День рождения <br>
+                                            второго пилота”
+                                        </div>
+                                        <div class="presents-slide__author">Александр Войцеховский</div>
+                                        <div class="presents-slide__divider divider"></div>
+                                        <div class="presents-slide__price">1500 ₽</div>
+                                    </div>
+                                    <div class="presents-slide__image"><img src="img/present.png" alt=""></div>
+                                </div>
+
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="presents-slide__wrapper">
+                                    <div class="presents-slide__text">
+                                        <div class="presents-slide__name">
+                                            Книга <br>
+                                            “День рождения <br>
+                                            второго пилота”
+                                        </div>
+                                        <div class="presents-slide__author">Александр Войцеховский</div>
+                                        <div class="presents-slide__divider divider"></div>
+                                        <div class="presents-slide__price">1500 ₽</div>
+                                    </div>
+                                    <div class="presents-slide__image"><img src="img/present.png" alt=""></div>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="presents-slide__wrapper">
+                                    <div class="presents-slide__text">
+                                        <div class="presents-slide__name">
+                                            Книга <br>
+                                            “День рождения <br>
+                                            второго пилота”
+                                        </div>
+                                        <div class="presents-slide__author">Александр Войцеховский</div>
+                                        <div class="presents-slide__divider divider"></div>
+                                        <div class="presents-slide__price">1500 ₽</div>
+                                    </div>
+                                    <div class="presents-slide__image"><img src="img/present.png" alt=""></div>
+                                </div>
+                            </swiper-slide>
+                        </swiper-container>
+                    </div>
+                    <div class="next next-long ">
+                        <img src="img/arrow-long.svg" alt="">
+                    </div>
+                    <div class="prev prev-long">
+                        <img style="transform: rotateY(180deg);" src="img/arrow-long.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="presents__text">
+                        Эксклюзивные подарки, от наших авторов можно купить онлайн. Выбирайте в электронном
+                        каталоге и
+                        заказывайте оригинальные предметы и авторские аксессуары с фрагментами произведений
+                        художников.
+                        <button class="button">Выбрать подарок</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+    <section class="instagram">
+        <div class="container">
+            <div class="instagram__title title">
+                <span>
+                    INSTAGRAM
+                </span>
+            </div>
+            <div class="instagram__divider divider"></div>
+            <div class="instagram__name">@molbertgallery</div>
+            <div class="instagram__descr">Следите за нашими выставками и новостями.</div>
+            <button class="instagram__button button"><img src="img/arrowButton.svg" alt=""></button>
+            <div class="instagram__gallery">
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_1.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_2.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_3.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_4.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_5.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_6.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_7.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_8.jpg" alt="">
+                </div>
+                <div class="instagram__item">
+                    <img src="img/inst-gallery_9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe__divider"></div>
+            <div class="subscribe__text"></div>
+            <div class="subscribe__text"></div>
+            <div class="subscribe__divider"></div>
+        </div>
+    </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script src="js/hero.js"></script>

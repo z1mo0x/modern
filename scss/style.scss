@@ -39,3 +39,34 @@
     font-family: Inter;
     font-size: 18px;
 }
+
+
+.next,
+.prev {
+    position: absolute;
+    top: 90%;
+    z-index: 10000;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next {
+    margin-left: 50px;
+}
+
+.next-long,
+.prev-long {
+    position: absolute;
+    top: 85% !important;
+    z-index: 10000;
+    left: -75px !important;
+    width: 150px;
+}
+
+.next-long {
+    left: calc(100% - 125px) !important;
+}
